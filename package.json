@@ -1,0 +1,32 @@
+{
+  "name": "node-packagejson-demo",
+  "version": "1.0.0",
+  "description": "Demo project to explore package.json functionality in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "package.json",
+    "demo"
+  ],
+  "author": "Paulina Salomon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulinaS123/node-packagejson-demo.git"
+  }
+}
