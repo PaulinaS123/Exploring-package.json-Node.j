@@ -43,5 +43,55 @@ Explorepackage.json/
 ```bash
 git clone https://github.com/PaulinaS123/Exploring-package.json-Node.j.git
 cd Explorepackage.json
+Install dependencies:
+```
+
+```bash
+npm install
+```
+2. Usage
+Run the Server
+
+```bash
+npm start
+```
+Open your browser at http://localhost:3000
+
+You should see: Hello World! Package.json demo running.
+
+3. Run Tests
+
+```bash
+npm test
+```
+
+Jest will run all test cases in index.test.js
+
+Output should show all 6 tests passing (3 normal + 3 edge cases)
+
+## Test Cases
+## Normal Cases
+
+2 + 3 = 5
+
+0 + 0 = 0
+
+-1 + 1 = 0
+
+Edge Cases
+
+1e9 + 1e9 = 2e9
+
+-1e9 + -1e9 = -2e9
+
+123 + 0 = 123
+
+## Notes
+
+package.json contains all project metadata, dependencies, devDependencies, scripts, and engine requirements.
+
+package-lock.json ensures consistent installs across environments.
+
+ESLint can be configured separately to maintain code style consistency (optional).
 
 
