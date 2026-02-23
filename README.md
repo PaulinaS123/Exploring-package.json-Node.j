@@ -70,7 +70,7 @@ Jest will run all test cases in index.test.js
 Output should show all 6 tests passing (3 normal + 3 edge cases)
 
 ## Test Cases
-## Normal Cases
+### Normal Cases
 
 2 + 3 = 5
 
@@ -78,7 +78,7 @@ Output should show all 6 tests passing (3 normal + 3 edge cases)
 
 -1 + 1 = 0
 
-Edge Cases
+### Edge Cases
 
 1e9 + 1e9 = 2e9
 
