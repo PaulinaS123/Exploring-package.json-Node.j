@@ -43,13 +43,13 @@ Explorepackage.json/
 ```bash
 git clone https://github.com/PaulinaS123/Exploring-package.json-Node.j.git
 cd Explorepackage.json
-Install dependencies:
 ```
+2. Install dependencies:
 
 ```bash
 npm install
 ```
-2. Usage
+3. Usage
 Run the Server
 
 ```bash
@@ -59,7 +59,7 @@ Open your browser at http://localhost:3000
 
 You should see: Hello World! Package.json demo running.
 
-3. Run Tests
+4. Run Tests
 
 ```bash
 npm test
