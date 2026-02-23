@@ -11,11 +11,11 @@ The objective of this project is to explore the structure and functionality of t
 ## Project Structure
 
 Explorepackage.json/
-├── index.js # Main Node.js program (Express server)
-├── index.test.js # Jest test cases (3 normal + 3 edge)
-├── package.json # Project metadata, dependencies, scripts
-├── package-lock.json # Locks exact dependency versions
-└── node_modules/ # Installed dependencies
+- index.js # Main Node.js program (Express server)
+- index.test.js # Jest test cases (3 normal + 3 edge)
+- package.json # Project metadata, dependencies, scripts
+- package-lock.json # Locks exact dependency versions
+- node_modules/ # Installed dependencies
 
 
 ---
@@ -88,10 +88,10 @@ Output should show all 6 tests passing (3 normal + 3 edge cases)
 
 ## Notes
 
-package.json contains all project metadata, dependencies, devDependencies, scripts, and engine requirements.
+- package.json contains all project metadata, dependencies, devDependencies, scripts, and engine requirements.
 
-package-lock.json ensures consistent installs across environments.
+- package-lock.json ensures consistent installs across environments.
 
-ESLint can be configured separately to maintain code style consistency (optional).
+- ESLint can be configured separately to maintain code style consistency (optional).
 
 
